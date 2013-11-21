@@ -172,7 +172,10 @@ int main() {
 		if (noDuplicate) {
 			cout<<"No duplicates."<<endl;
 		}
-		cout<<endl;
+		if (!N) {
+			cout<<endl;
+		}
+		
 	}
 
 #ifndef ONLINE_JUAGE

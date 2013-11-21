@@ -132,7 +132,7 @@ public:
 							if (gamesPlayed<t.gamesPlayed) {
 								return true;
 							} else if (gamesPlayed==t.gamesPlayed) {
-								if (name>t.name) {
+								if (name<t.name) {
 									return true;
 								} else {
 									return false;

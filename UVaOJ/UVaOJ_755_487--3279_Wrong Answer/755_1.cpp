@@ -172,7 +172,7 @@ int main() {
 		if (noDuplicate) {
 			cout<<"No duplicates."<<endl;
 		}
-		if (!N) {
+		if (N) {
 			cout<<endl;
 		}
 		

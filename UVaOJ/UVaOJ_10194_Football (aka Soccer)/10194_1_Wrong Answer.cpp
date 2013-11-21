@@ -132,7 +132,7 @@ public:
 							if (gamesPlayed<t.gamesPlayed) {
 								return true;
 							} else if (gamesPlayed==t.gamesPlayed) {
-								if (name>t.name) {
+								if (name<t.name) {
 									return true;
 								} else {
 									return false;
@@ -255,7 +255,10 @@ int main() {
 				<<teams[i].wins<<"-"<<teams[i].ties<<"-"<<teams[i].losses<<"), "<<teams[i].goalDiff<<"gd ("
 				<<teams[i].goalScored<<"-"<<teams[i].goalAgainst<<")"<<endl;
 		}
-		cout<<endl;
+		if (N>=1) {
+			cout<<endl;
+		}
+		
 	}
 	
 #ifndef ONLINE_JUAGE
